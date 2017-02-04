@@ -1,6 +1,17 @@
- body{
+ body {
      font-family: Arial, Helvetica, sans-serif;
  }
- span.boldtext{
-     font-weight:600;
+ 
+ span.boldtext {
+     font-weight: 600;
+ }
+ 
+table#skillstable {
+    width:auto;
+}
+
+ @media print {
+     .container {
+         width: auto;
+     }
  }
