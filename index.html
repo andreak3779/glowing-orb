@@ -13,7 +13,7 @@
         <!-- Optional theme -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
             crossorigin="anonymous">
-            <link rel="stylesheet" href="styles/stye.css">
+            <link rel="stylesheet" href="styles/style.css">
             <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
             <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
             <!--[if lt IE 9]>
@@ -21,6 +21,7 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 </head>
+
 <body>
     <div class="container">
         <div class="page-header">
@@ -29,142 +30,222 @@
         <div>
             <nav>
                 <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation" class="active">
+                    <li role="presentation">
                         <a href="#introduction" role="tab" data-toggle="tab">Introduction</a></li>
                     <li role="presentation">
                         <a href="#experience" role="tab" data-toggle="tab">Experience</a></li>
                     <li role="presentation">
                         <a href='#education' role="tab" data-toggle="tab">Education</a></li>
-                    <li role="presentation">
+                    <li role="presentation"  class="active" >
                         <a href="#skills" role="tab" data-toggle="tab">Skills Development</a></li>
-                        <li role="presentation">
+                    <li role="presentation">
                         <a href="#philosophy" role="tab" data-toggle="tab">My Philosophy</a></li>
                     <li role="presentation">
                         <a href="#contactme" role="tab" data-toggle="tab"></a>
                     </li>
-                    <li role="presentation" class="dropdown" >
+                    <li role="presentation" class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                         Links <span class="caret"></span>
                         <ul class="dropdown-menu">
                             <li><a href="https://ca.linkedin.com/in/drewk3779">LinkedIn Profile</a></li>
-                            <li><a href="https://github.com/shimmeringbluorb1973">Git Hub Repository</a></li>
-                        </ul>
-                        </a>
-                    </li>
+                    <li><a href="https://github.com/shimmeringbluorb1973">Git Hub Repository</a></li>
                 </ul>
-                
+                </a>
+                </li>
+                </ul>
             </nav>
         </div>
         <div class="tab-content">
-        <section id="introduction" role="tabpanel" class="tab-pane active" >
-            <h2>Introduction</h2>
-            <div>
-                <p>I am a developer/analyst who enjoys learning about new skills and ideas. During my time off I like watching
-                    sci-fi movies, and playing video games.</p>
-                <h3>Facts About Me</h3>
-                <ul>
-                    <li>I am a Microsoft Certified Professional</li>
-                    <li>Demonstrated skills in design, research, analysis, troubleshooting and creating report.</li>
-                    <li>Organized, attention to details and able to prioritize and manage time effectively.</li>
-                    <li>Strong English communication skills: spoken, written and reading.</li>
-                    <li>Demonstrated team player and able to work unsupervised.</li>
-                    <li>Class 5 Drive's License and owns a vehicle.</li>
-                    <li>18 plus years of experience in Information Technology</li>
-                </ul>
+            <section id="introduction" role="tabpanel" class="tab-pane">
+                <h2>Introduction</h2>
+                <div>
+                    <p>I am a developer/analyst who enjoys learning about new skills and ideas. During my time off I like watching
+                        sci-fi movies, and playing video games.</p>
+                    <h3>Facts About Me</h3>
+                    <ul>
+                        <li>I am a Microsoft Certified Professional</li>
+                        <li>Demonstrated skills in design, research, analysis, troubleshooting and creating report.</li>
+                        <li>Organized, attention to details and able to prioritize and manage time effectively.</li>
+                        <li>Strong English communication skills: spoken, written and reading.</li>
+                        <li>Demonstrated team player and able to work unsupervised.</li>
+                        <li>Class 5 Drive's License and owns a vehicle.</li>
+                        <li>18 plus years of experience in Information Technology</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="skills" role="tabpanel" class="tab-pane active">
+                <h2>Skills</h2>
+                <div>
+                    <h3>Areas I am actively learning</h3>
+                    <ul>
+                        <li>
+                            <h4>JavaScript Frameworks</h4>
+                            <p></p>
+                        </li>
+                    </ul>
+                </div>
+                <p>This is a list of skills I have learned in my recent career history.</p>
+                <table id="skillstable" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Software Tools/Applications</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>C#</td>
+                            <td>JavaScript</td>
+                            <td>SQL Server</td>
+                            <td>Microsoft Reports</td>
+                        </tr>
+                        <tr>
+                            <td>DevExpress</td>
+                            <td>Entity Framework</td>
+                            <td>TFS</td>
+                            <td>VB.Net</td>
+                        </tr>
+                        <tr>
+                            <td>Toad/DB2</td>
+                            <td>Visual Studio</td>
+                            <td>SSMS</td>
+                            <td>Ubuntu</td>
+                        </tr>
+                        <tr>
+                            <td>MS Scrum 1.0</td>
+                            <td>Jira</td>
+                            <td>Git</td>
+                            <td>CSS</td>
+                        </tr>
+                        <tr>
+                            <td>Sybase</td>
+                            <td>Agile</td>
+                            <td>HP Quality Centre</td>
+                            <td>JQuery</td>
+                        </tr>
+                        <tr>
+                            <td>Brackets</td>
+                            <td>VIM</td>
+                            <td>VS Code</td>
+                            <td>ASP.NET WebForms</td>
+                         <tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="experience" class="tab-pane">
+                <h2>Experience</h2>
+                <div>
+                    <div>
+                        <h4 class="jobtitle"><small>2015 - Present</small> .Net Developer</h4>
+                        <h5 class="companytitle">UDS Health Ltd. <small>Winnipeg, Manitoba</small></h5>
+                        <div style="clear:both"></div>
+                        <ul>
+                            <li>Creating custom reports and added enhancements to existing reports using: VB.Net C#,MS Reports,
+                                IIS, Jquery, ASP.Net Web Forms and SQL Server.</li>
+                            <li>Providing troubleshooting and hardware support to staff members for their workstations.</li>
+                            <li>Maintaining and enhancing custom ASP.NET Web Form web applications written in VB.Net/C#, Jquery,
+                                JavaScript, HTML, CSS, Microsoft Reports and SQL Server. </li>
+                            <li>Integrating custom web applications and custom services with third party Web Apps/API such as
+                                QuickBooks, HelpSpot and InterFax.</li>
+                            <li>Managing Source Code using Git (Ubuntu), Visual Studio 2015 and Source Tree.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="jobtitle"><small>2011 - 2015</small> Service Information Developer</h4>
+                        <h5 class="companytitle">Hewlett Packard Company of Canada <small>Winnipeg, Manitoba</small></h5>
+                        <div style="clear:both"></div>
+                        <div>
+                            <h5>Enterprise Report Developer</h5>
+                            <ul>
+                                <li>Created custom reports and added enhancements to existing reports using C#, Code Generation,
+                                    DevExpress, Entity Framework and Linq. </li>
+                                <li>Created SQL scripts to implement reports and system changes using Toad to a DB2 database.</li>
+                                <li>Conducted code analysis, test plan definition and troubleshooting of defects with Visual
+                                    Studio, C#, EF, PowerBuilder, DB2 and MS Scrum 1.0.</li>
+                                <li>Managed system changes, build management, migrated changes among different environments and
+                                    deployed them to production with Visual Studio 2010, ALM and TFS.</li>
+                                <li>Worked in a virtualized Citrix environment and as a member of a geographically dispersed
+                                    Agile team.</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h5>Enterprise Software Development/Support Developer</h5>
+                            <ul>
+                                <li>Created ad-hoc query of Sybase database using complex SQL, shell scripting and Excel.</li>
+                                <li>Conducted analysis of requirements to determine system changes required and data fixes needed
+                                    using Visual Studio 2005, VB.Net, TFS, Sybase Server and PowerBuilder.</li>
+                                <li>Tracking assigned tasks using Sharepoint, HP Quality Centre and BMC Remedy.</li>
+                                <li>Created builds of the client’s custom enterprise application and production releases with
+                                    TFS, UNIX shell scripting, SQL and Install Shield.</li>
+                                <li>Created custom data fix scripts using SQL Server, SQL and UNIX shell scripting to resolve
+                                    defects and place the system in a stable state.</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="jobtitle"><small>2010 – 2011</small> Developer</h4>
+                            <h5 class="companytitle">Online Business Systems <small>Winnipeg, Manitoba</small></h5>
+                            <div style="clear:both"></div>
+                            <ul>
+                                <li>Worked as a part of a geographically dispersed team with business analysts, developers and
+                                    testers on system’s enhancements through each stage of the SDLC.</li>
+                                <li>Designed, developed, tested and provided support of client’s system enhancements using Citrix,
+                                    PowerBuilder, Oracle 9.0 PL/SQL and SQL Station.</li>
+                                <li>Did troubleshooting of bugs and provided support of issues uncovered during testing with
+                                    Citrix, PowerBuilder 9, Oracle 9.0 PL/SQL, Clear Case and SQL Station.</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="jobtitle"><small>2007 – 2010</small> Service Information Developer</h4>
+                            <h5 class="companytitle">Hewlett Packard Company of Canada <small>Winnipeg, Manitoba</small></h5>
+                            <div style="clear:both"></div>
+                            <ul>
+                                <li>Defined business rules, use cases and other artifacts with Requisite Pro, Rational Rose,
+                                    Sharepoint and Excel. </li>
+                                <li>Created system enhancements using PowerBuilder, Sybase, SQL, UNIX shell scripting, Visual
+                                    Studio2005, VB.Net and SQR.</li>
+                                <li>Worked closely with client’s business analysts to discover further requirements and solution
+                                    design requirements using Visio, Requisite Pro, Rational Rose, Excel and Sharepoint.</li>
+                                <li>Defined and tested Middleware web services to support system changes with Visual Studio 2005,
+                                    VB.Net, SOAP and PowerBuilder.</li>
+                                <li>Created release candidates of customer enterprise software using Merant PVCS/Serena Version
+                                    and Wise Installer 8.0m.</li>
+                                <li>Provided support of existing system defects, post implementation support and data patching
+                                    using PowerBuilder, UNIX shell scripting, SQL and Visual Studio 2005 using VB.Net.</li>
+                            </ul>
+                            <div>
+                            </div>
+            </section>
+            <section id="education" class="tab-pane">
+                <h2>Education</h2>
+                <div></div>
+            </section>
+            <section id="philosophy" class="tab-pane">
+                <h2>My philosophy on software development</h2>
+                <p>
+                    In todays software developement world change is constant. We change our tools, we change our apps, we change our environment,
+                    and our jobs. New jobs are created old jobs are eliminated. Although one thing has stayed constant for
+                    me my personal philosophy on my work in the software development world. It is to <strong>let the tool do the work so I don't have to</strong>.
+                    Simple statement but what does it mean? It means to me these points.
+                    <ul>
+                        <li>Automate repetitive tasks as much as reasonable possible.</li>
+                        <li>Put effort into mastering your development environment</li>
+                        <li>Always be learning about different tools, languages, OS etc...</li>
+                        <li>Understand the intention of the tools, languages and environment that your are working within.</li>
+                        <li>Always try to find ways that your current environment can be improved.</li>
+                        <li>Share any information, tools or skills you have learned with your team members and ask for feedback.</li>
+                    </ul>
+                </p>
+            </section>
             </div>
-        </section>
-        <section id="skills" role="tabpanel" class="tab-pane" >
-            <div>
-                <h3>Areas I am actively learning</h3>
-                <ul>
-                    <li>
-                        <h4>JavaScript Frameworks</h4>
-                        <p></p>
-                    </li>
-                </ul>
+            <footer>
+                <p>Todo</p>
+            </footer>
             </div>
-            <p>This is a list of skills I have learned in my recent career history.</p>
-            <table id="skillstable" class="table table-striped">
-                <thead>
-                    <tr>
-                        <th>Software Tools/Applications</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>C#</td>
-                        <td>JavaScript</td>
-                        <td>SQL Server</td>
-                        <td>Microsoft Reports</td>
-                    </tr>
-                    <tr>
-                        <td>DevExpress</td>
-                        <td>Entity Framework</td>
-                        <td>TFS</td>
-                        <td>VB.Net</td>
-                    </tr>
-                    <tr>
-                        <td>Toad/DB2</td>
-                        <td>Visual Studio</td>
-                        <td>SSMS</td>
-                        <td>Ubuntu</td>
-                    </tr>
-                    <tr>
-                        <td>MS Scrum 1.0</td>
-                        <td>Jira</td>
-                        <td>Git</td>
-                        <td>CSS</td>
-                    </tr>
-                    <tr>
-                        <td>Sybase</td>
-                        <td>Agile</td>
-                        <td>HP Quality Centre</td>
-                        <td>JQuery</td>
-                    </tr>
-                    <tr>
-                        <td>Brackets</td>
-                        <td>VIM</td>
-                        <td>VS Code</td>
-                        <td>
-                            <ASP.NET WebForms/td>
-                                <tr>
-                </tbody>
-            </table>
-        </section>
-        <section id="experience" class="tab-pane">
-            <h2>Experience</h2>
-            <div>
-            </div>
-        </section>
-        <section id="education" class="tab-pane">
-            <h2>Education</h2>
-            <div></div>
-        </section>
-        <section id="philosophy" class="tab-pane">
-            <h3>My philosophy on software development</h3>
-            <p>
-                In todays software developement world change is constant. We change our tools, we change our apps, we change our environment,
-                and our jobs. New jobs are created old jobs are eliminated. Although one thing has stayed constant for me
-                my personal philosophy on my work in the software development world. It is to <strong>let the tool do the work so I don't have to</strong>.
-                Simple statement but what does it mean? It means to me these points.
-                <ul>
-                    <li>Automate repetitive tasks as much as reasonable possible.</li>
-                    <li>Put effort into mastering your development environment</li>
-                    <li>Always be learning about different tools, languages, OS etc...</li>
-                    <li>Understand the intention of the tools, languages and environment that your are working within.</li>
-                    <li>Always try to find ways that your current environment can be improved.</li>
-                    <li>Share any information, tools or skills you have learned with your team members and ask for feedback.</li>
-                </ul>
-            </p>
-        </section>
-        </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
-        <script src="scripts/index.js">
-        </script>
+            <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+            <!-- Latest compiled and minified JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+                crossorigin="anonymous"></script>
+                <script src="scripts/index.js">
+                </script>
 </body>
 
 </html>

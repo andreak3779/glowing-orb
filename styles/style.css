@@ -9,8 +9,16 @@
 table#skillstable {
     width:auto;
 }
+h4.jobtitle{
+    float:left;
+}
 
- @media print {
+h5.companytitle{
+
+    float:right;
+}
+
+@media print {
      .container {
          width: auto;
      }
